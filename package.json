@@ -1,36 +1,39 @@
 {
-  "name": "@trenskow/json-shards",
-  "version": "0.1.0",
-  "description": "A small library for creating/reading/writing JSON objects into sharded file structure.",
-  "keywords": [
-    "JSON",
-    "shards",
-    "read",
-    "write",
-    "file"
-  ],
-  "homepage": "https://github.com/trenskow/json-shards#readme",
-  "bugs": {
-    "url": "https://github.com/trenskow/json-shards/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trenskow/json-shards.git"
-  },
-  "license": "BSD-2-Clause",
-  "author": "Kristian Trenskow <this.is@kristians.email>",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3.3.7",
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.11.0",
-    "globals": "^17.13.0"
-  },
-  "dependencies": {
-    "keyd": "^2.1.82"
-  }
+	"name": "@trenskow/json-shards",
+	"version": "0.1.0",
+	"description": "A small library for creating/reading/writing JSON objects into sharded file structure.",
+	"keywords": [
+		"JSON",
+		"shards",
+		"read",
+		"write",
+		"file"
+	],
+	"homepage": "https://github.com/trenskow/json-shards#readme",
+	"bugs": {
+		"url": "https://github.com/trenskow/json-shards/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/trenskow/json-shards.git"
+	},
+	"license": "BSD-2-Clause",
+	"author": "Kristian Trenskow <this.is@kristians.email>",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.3.7",
+		"@eslint/js": "^10.0.1",
+		"chai": "^6.3.0",
+		"eslint": "^10.11.0",
+		"globals": "^17.13.0",
+		"mocha": "^12.0.3"
+	},
+	"dependencies": {
+		"@trenskow/merge": "^0.1.69",
+		"keyd": "^2.1.82"
+	}
 }
